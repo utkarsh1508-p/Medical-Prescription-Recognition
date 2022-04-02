@@ -9,6 +9,7 @@ Feedforward is performed with the training set for calculating the hypothesis an
 
 
 **Result**
+
 Training set accuracy of 94.49% 
 
 Test set accuracy of 80.72% over test set
