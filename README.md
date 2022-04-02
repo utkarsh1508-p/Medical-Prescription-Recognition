@@ -2,13 +2,15 @@
 
 Three layered Neural Network which contains an input layer, one hidden layer and an output layer is used. In this approach 785 activation units (1 biased and 784 feature) are used in an input layer. In second layer of the model which is hidden layer have 25 activation units and in last layer i.e. output layer 47 activation units are considered. 
 
-                           ![image](https://user-images.githubusercontent.com/81741487/161369826-943b4205-ebd3-4ed5-a680-f160f4922ef0.png)
+![image](https://user-images.githubusercontent.com/81741487/161369983-cd8ab715-98fe-48d5-a696-12cbd1fd3937.png)
+
 
 Feedforward is performed with the training set for calculating the hypothesis and then backpropagation is done in order to reduce the error between the layers. The regularization parameter lambda is set to 0.1 to address the problem of overfitting. Optimizer is run for 800 iterations to find the best fit model.
 
 
 **Result**
 Training set accuracy of 94.49% 
+
 Test set accuracy of 80.72% over test set
 
 **Output**
